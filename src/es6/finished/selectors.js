@@ -23,6 +23,7 @@ export default function() {
     <li data-time="3:31">Some Video</li>
   </ul>
   `;
+  console.log(htmlTags);
 
   // appending the list to the document
   const mainDocumentElement = document.getElementById('app');
