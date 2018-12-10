@@ -39,11 +39,10 @@ export default function() {
   console.log(liElementsWithSpecialClass);
 
   // create new ul list
-  const ulList = document.createElement('ul');
-  ulList.innerHTML = `<li>New element</li>`;
-  ulList.setAttribute('id', 'new-list-id');
+  const newUlList = document.createElement('ul');
+  newUlList.setAttribute('id', 'new-list-id');
   console.log('New created ul list')
-  console.log(ulList);
+  console.log(newUlList);
 
 
   // create new li element
@@ -51,13 +50,11 @@ export default function() {
   newLiElem.innerText = 'Some new created node element';
 
   // append new created element to new created ul list
-  ulList.appendChild(newLiElem);
+  newUlList.appendChild(newLiElem);
 
   // append nodelist of elements to the new createed ul list
-  liElementsWithSpecialClass.forEach(el => { ulList.append(el.cloneNode(true)) });
+  liElementsWithSpecialClass.forEach(el => { newUlList.append(el.cloneNode(true)) });
 
   // append the new created list to the DOM
-  mainDocumentElement.append(ulList);
-
-
+  mainDocumentElement.append(newUlList);
 }
