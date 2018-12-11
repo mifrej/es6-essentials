@@ -10,5 +10,4 @@ export default function() {
       console.log('The index is: ', index);
     }, 500);
   }
-
 }
