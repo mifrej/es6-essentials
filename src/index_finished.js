@@ -5,10 +5,12 @@ import selectors from './es6/finished/selectors';
 import arrowFunction from './es6/finished/arrow_functions';
 import arrowFunctionThis from './es6/finished/arrow_function_this';
 import defaultFunctionArguments from './es6/finished/default_function_arguments';
+import templateStrings from './es6/finished/template_strings';
+import taggedTemplates from './es6/finished/tagged_templates';
 
 // Es modules
 // mainACMFunction();
-// console.log(age, name, team);
+// console.log(name, team);
 
 // Variables
 // variables();
@@ -21,4 +23,10 @@ import defaultFunctionArguments from './es6/finished/default_function_arguments'
 // arrowFunctionThis();
 
 // Default function arguments
-defaultFunctionArguments();
+// defaultFunctionArguments();
+
+// Template strings
+// templateStrings();
+
+// Tagged templates
+taggedTemplates();
