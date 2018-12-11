@@ -50,7 +50,7 @@ export default function() {
   const newLiElem = document.createElement('li');
   newLiElem.innerText = 'Some new created node element';
 
-  // append new created element to new created ul list
+  // append new created li element to new created ul list
   newUlList.appendChild(newLiElem);
 
   // append nodelist of elements to the new createed ul list

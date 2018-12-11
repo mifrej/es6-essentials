@@ -24,6 +24,20 @@ export default function() {
   </ul>
   `;
 
-document.getElementById('app').innerHTML = htmlTags;
+// appending the list to the document
+const mainDocumentElement = document.getElementById('app');
+mainDocumentElement.innerHTML = htmlTags;
+
+// select all li elements with [data-time] attribute
+
+// select all li with classname `special-element`
+
+// create new ul list
+
+// create new li element
+
+// append new created li element to new created ul list
+
+// append the new created list to the DOM
 
 }

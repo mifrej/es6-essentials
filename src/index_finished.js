@@ -7,6 +7,7 @@ import arrowFunctionThis from './es6/finished/arrow_function_this';
 import defaultFunctionArguments from './es6/finished/default_function_arguments';
 import templateStrings from './es6/finished/template_strings';
 import taggedTemplates from './es6/finished/tagged_templates';
+import objectLiterals from './es6/finished/object_literal';
 
 // Es modules
 // mainACMFunction();
@@ -29,4 +30,7 @@ import taggedTemplates from './es6/finished/tagged_templates';
 // templateStrings();
 
 // Tagged templates
-taggedTemplates();
+// taggedTemplates();
+
+// Object literals
+objectLiterals();
