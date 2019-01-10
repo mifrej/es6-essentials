@@ -3,7 +3,6 @@ export default function() {
   console.log(me);
   me.surname = 'Frejnik';
   console.log(me, 'updated');
-
   for (let index = 0; index < 10; index++) {
     setTimeout(function() {
       console.log('=====================');

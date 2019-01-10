@@ -8,6 +8,7 @@ import defaultFunctionArguments from './es6/finished/default_function_arguments'
 import templateStrings from './es6/finished/template_strings';
 import taggedTemplates from './es6/finished/tagged_templates';
 import objectLiterals from './es6/finished/object_literal';
+import destructuring from './es6/finished/destructuring';
 
 // Es modules
 // mainACMFunction();
@@ -33,4 +34,5 @@ import objectLiterals from './es6/finished/object_literal';
 // taggedTemplates();
 
 // Object literals
-objectLiterals();
+// objectLiterals();
+destructuring();

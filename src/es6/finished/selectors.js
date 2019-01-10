@@ -54,7 +54,7 @@ export default function() {
   newUlList.appendChild(newLiElem);
 
   // append nodelist of elements to the new createed ul list
-  liElementsWithSpecialClass.forEach(el => { newUlList.append(el.cloneNode(true)) });
+  // liElementsWithSpecialClass.forEach(el => { newUlList.append(el.cloneNode(true)) });
 
   // append the new created list to the DOM
   mainDocumentElement.append(newUlList);
