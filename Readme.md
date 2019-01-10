@@ -4,6 +4,10 @@
 * `src/es6/finished` -> finished examples
 * `src/index.js` is the starting point where one should import individual exercises files from `src/es6/`
 
+## Link to presentation
+
+* https://es6-presentation-8m0kp9hen.now.sh
+
 ### The repository available for editin in CodeSandbox
 * https://codesandbox.io/s/github/mifrej/es6-essentials
 * Fork the project in the Sandbox view in order to be able to edit
